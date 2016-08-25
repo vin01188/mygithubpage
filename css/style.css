@@ -1,0 +1,125 @@
+.head {
+  background: transparent;
+  border-color: transparent;
+}
+.head2 {
+  background: #FFFFFF;
+  border-color: transparent;
+}
+.prof{
+  width:200px;
+  display:block;
+  margin-left: auto;
+  margin-right:auto;
+  border-radius:50%;
+}
+.linkicon{
+  text-align:center;
+}
+/*
+li{
+  float:right;
+  
+}
+.name{
+  float:left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 20px 25px;
+  text-decoration: none;
+  font-size:20px;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 20px 40px;
+  text-decoration: none;
+  font-size:20px;
+}
+li a:hover:not(.active){
+  background-color:#FFF;
+  text-decoration:none;
+  
+}
+*/
+a:hover{
+  text-decoration: none;
+}
+a:visited{
+  text-decoration: none;
+}
+a:active{
+  text-decoration: none;
+}
+a:link{
+  text-decoration: none;
+}
+.btn.outline {
+  background: none;
+  padding: 12px 22px;
+}
+
+.btn-primary.outline {
+  border: 2px solid #0099cc;
+  color: #0099cc;
+}
+
+p {
+  font-size: 20px
+}
+.wl{
+  padding-left:20px;
+}
+.wr{
+  padding-right:20px;
+}
+
+.item {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: 0px;
+  position: relative;
+}
+
+.item img {
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.item .overlay {
+  position: absolute;
+  left: 0%;
+  top: 0;
+  width: 0%;
+  height: 100%;
+  background-color: rgba(19, 19, 19, 0.5);
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease-in;
+  -o-transition: all .4s ease-in-out;
+  transition: all .4s ease;
+  visibility: hidden;
+  overflow: hidden;
+}
+
+.item .overlay h1 {
+  color: #fff;
+  font-family: Arial;
+  text-align: center;
+  vertical-align: central;
+  padding: 0;
+  margin: 0;
+  line-height: 400px;
+}
+
+.item:hover .overlay {
+  top: 0;
+  left: 0;
+  visibility: visible;
+  width: 100%;
+  height: 100%;
+}
